@@ -1,0 +1,27 @@
+# Site settings
+title: Griffin+
+email: ravenpride@griffin.plus
+description: >
+  A group of people enjoying to create awesome software.
+
+baseurl: ""
+url: https://griffin.plus
+git_organization_address: https://www.github.com/griffinplus
+bootwatch: flatly
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: Europe/Berlin
